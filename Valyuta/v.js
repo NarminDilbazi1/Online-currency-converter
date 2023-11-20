@@ -92,7 +92,7 @@ class Calculators {
             this.right.show();
         }
         else {
-            console.error("Invalid currency (line: 82)");
+            console.error("Invalid currency");
         }
     }
 
@@ -166,7 +166,7 @@ getDatas().then(data => {
                 return this.usdExchanges[to] / this.usdExchanges[from];
             }
             else {
-                console.error("Invalid currency (line: 99)");
+                console.error("Invalid currency");
             }
         }
     }
